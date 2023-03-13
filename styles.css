@@ -1,0 +1,41 @@
+
+/* targeting everything */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/* header stylings */
+
+.header {
+  height : 90px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: black;
+  z-index: 100;
+  color: white;
+}
+
+.name {
+  font-size: 30px;
+  margin-top: -5px;;
+}
+
+.links {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+/* main */
+
+main {
+  margin-top: 90px;
+}
