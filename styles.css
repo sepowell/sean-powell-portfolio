@@ -85,6 +85,10 @@ main {
   width: 50%;
 }
 
+.intro-text > h1 {
+  text-decoration: underline;
+}
+
 .intro-profile-pic > img {
   width: 250px;
   height: auto;
@@ -101,6 +105,10 @@ main {
   margin-top: 40px;
 }
 
+.skills-container > h1 {
+  text-decoration: underline;
+}
+
 .skill-icons {
   display: flex;
   gap: 40px;
@@ -112,3 +120,29 @@ main {
   height: 100px;
   width: auto;
 }
+
+/* Projects */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container > h1 {
+  text-decoration: underline;
+}
+
+/* Contact Me */
+
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-container > h1 {
+  text-decoration: underline;
+}
+
+/* footer */
